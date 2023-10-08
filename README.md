@@ -1,3 +1,7 @@
+## The Website
+
+[Website](https://opportunity-hack.vercel.app/nonprofits)
+
 ### Problem Solving Summary
 
 In this project, we tackled two main problems: searching for foundations using data from 990-PFs and searching for nonprofit salaries using data from 990s and 990 EZs. Below is a summary of how we addressed these challenges:
