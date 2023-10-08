@@ -1,31 +1,27 @@
+### Problem Solving Summary
 
-# 2023_fall Hackathon
-https://hack.ohack.dev
-## Team
-InnovationNation
+In this project, we tackled two main problems: searching for foundations using data from 990-PFs and searching for nonprofit salaries using data from 990s and 990 EZs. Below is a summary of how we addressed these challenges:
 
-## Slack Channel
-`#`[990-data-finder](https://opportunity-hack.slack.com/app_redirect?channel=990-data-finder)
+#### Problem 1: Searching for Foundations (using data from 990-PFs)
 
-## Problem Statement
-[990 Data Finder: A Tool to Analyze Nonprofits and Foundations’ Tax Returns](https://ohack.dev/project/xsnjfdchdZNjGThFjJPh)
+**Search Options:**
 
-## Creator
-@Kunj Patel (on Slack)
+1. **Geographic Location**: We successfully implemented the ability to search for foundations based on their geographic location.
+2. **Grant Application Process**: Information about the grant application process can be found within the Part XV-Supplementary Information section of the 990-PFs.
+3. **Recipient of Grant Application**: We identified who should receive grant applications, which can also be located in the Part XV section.
+4. **Submission Deadlines**: The submission deadlines for grant applications were successfully extracted.
+5. **Restrictions and Limitations**: Information regarding restrictions and limitations on grants was also successfully collected.
+6. **Acceptance of Unsolicited Requests**: We identified whether or not the foundation accepts unsolicited requests for funds.
 
-## Your next steps
-1. ✅ Add everyone to your GitHub repo like this: https://opportunity-hack.slack.com/archives/C1Q6YHXQU/p1605657678139600
-2. ✅ Create your DevPost project like this https://youtu.be/vCa7QFFthfU?si=bzMQ91d8j3ZkOD03
-3. ✅ ASU Students use https://opportunity-hack-2023-asu.devpost.com/
-4. ✅ Everyone else use https://opportunity-hack-2023-virtual.devpost.com/
-5. ✅ Your DevPost final submission demo video should be 3 minutes or less
-6. ✅ Review the judging criteria on DevPost
+**Types of Grants Provided**: Unfortunately, we encountered a limitation in finding the types of grants provided by foundations. This particular information was not available in the data we processed. Further data or data sources may be necessary to address this aspect.
 
-# What should your final Readme look like?
-Examples of stellar readmes:
-- ✨ [2019 Team 3](https://github.com/2019-Arizona-Opportunity-Hack/Team-3)
-- ✨ [2019 Team 6](https://github.com/2019-Arizona-Opportunity-Hack/Team-6)
-- ✨ [2020 Team 2](https://github.com/2020-opportunity-hack/Team-02)
-- ✨ [2020 Team 4](https://github.com/2020-opportunity-hack/Team-04)
-- ✨ [2020 Team 8](https://github.com/2020-opportunity-hack/Team-08)
-- ✨ [2020 Team 12](https://github.com/2020-opportunity-hack/Team-12)
+#### Problem 2: Searching for Nonprofit Salaries (using data from 990s and 990 EZs)
+
+**Search Options:**
+
+1. **Geographic Location**: We successfully implemented the ability to search for nonprofit organizations' salaries based on their geographic location.
+2. **Annual Gross Revenue**: Information about annual gross revenue was extracted from Part 1, line 12 for 990s and Part 1, line 9 for 990 EZs.
+3. **Annual Net Revenue**: We extracted data related to annual net revenue from Part 1, line 22 for 990s and Part 1, line 21 for 990 EZs.
+4. **Job Titles**: We identified job titles containing specific keywords such as "Director," "Chief __ Officer," "Manager," "Coordinator," and "Assistant."
+
+**Average Salary Calculation**: The average salary was calculated by combining the salaries of individuals with various titles, including directors, chief officers, managers, coordinators, and assistants. It's important to note that this calculation may result in some skew towards higher values, as it considers salaries of all employees.
