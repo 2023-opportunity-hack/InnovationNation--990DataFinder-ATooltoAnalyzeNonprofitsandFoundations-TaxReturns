@@ -6,7 +6,7 @@ In this project, we tackled two main problems: searching for foundations using d
 
 **Search Options:**
 
-1. **Geographic Location**: We successfully implemented the ability to search for foundations based on their geographic location.
+1. **Geographic Location**: We implemented the ability to search for foundations based on their geographic location.
 2. **Grant Application Process**: Information about the grant application process can be found within the Part XV-Supplementary Information section of the 990-PFs.
 3. **Recipient of Grant Application**: We identified who should receive grant applications, which can also be located in the Part XV section.
 4. **Submission Deadlines**: The submission deadlines for grant applications were successfully extracted.
@@ -19,7 +19,7 @@ In this project, we tackled two main problems: searching for foundations using d
 
 **Search Options:**
 
-1. **Geographic Location**: We successfully implemented the ability to search for nonprofit organizations' salaries based on their geographic location.
+1. **Geographic Location**: We implemented the ability to search for nonprofit organizations' salaries based on their geographic location.
 2. **Annual Gross Revenue**: Information about annual gross revenue was extracted from Part 1, line 12 for 990s and Part 1, line 9 for 990 EZs.
 3. **Annual Net Revenue**: We extracted data related to annual net revenue from Part 1, line 22 for 990s and Part 1, line 21 for 990 EZs.
 4. **Job Titles**: We identified job titles containing specific keywords such as "Director," "Chief __ Officer," "Manager," "Coordinator," and "Assistant."
